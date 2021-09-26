@@ -1,0 +1,17 @@
+.btn-regular{
+    background-color: goldenrod;
+    width: 150px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.developer{
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.image img{
+    border-radius: 50%;
+}
