@@ -19,7 +19,7 @@ const Cart = (props) => {
 
     return (
         <div>
-            <h5 ><i class="fas fa-user"></i> Developer Added: {totalQuantity}</h5>
+            <h5 ><i className="fas fa-user mb-2"></i> Developer Added: {totalQuantity}</h5>
             <h6 >Total Cost: $ {total.toFixed(2)}</h6>
             <ul className='mt-4 cart-image'>
                 {

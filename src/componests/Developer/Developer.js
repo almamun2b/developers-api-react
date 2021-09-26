@@ -11,8 +11,10 @@ const Developer = (props) => {
             <div className='image'>
                 <img src={image} alt="" />
             </div>
-            <div className='mt-3 card-body'>
-                <h4 className='text-primary'>Name: {name}</h4>
+            <div>
+                <h4 className='text-primary mt-3'>Name: {name}</h4>
+            </div>
+            <div className='mt-2 card-body'>
                 <p><span className='fw-bold'>Designation:</span> {designation}</p>
                 <p><span className='fw-bold'>Gender:</span> {gender}</p>
                 <p><span className='fw-bold'>Email:</span> {email}</p>
@@ -23,9 +25,9 @@ const Developer = (props) => {
                 <button onClick={() => props.handleAddToCart(props.developer)}
                     className='btn btn-primary'>{cartIcon} Add to Cart</button>
                 <p className='fs-3 mt-3 g-3 d-flex justify-content-evenly'>
-                    <a href="https://facebook.com"><i class="fab fa-facebook text-primary"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin text-primary"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter text-info"></i></a>
+                    <a href="https://facebook.com"><i className="fab fa-facebook text-primary"></i></a>
+                    <a href="https://linkedin.com"><i className="fab fa-linkedin text-primary"></i></a>
+                    <a href="https://twitter.com"><i className="fab fa-twitter text-info"></i></a>
                 </p>
             </div>
         </div>
