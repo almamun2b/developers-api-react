@@ -21,7 +21,7 @@ const Developer = (props) => {
             </div>
             <div>
                 <button onClick={() => props.handleAddToCart(props.developer)}
-                    className='btn-regular'>{cartIcon} Add to Cart</button>
+                    className='btn btn-primary'>{cartIcon} Add to Cart</button>
                 <p className='fs-3 mt-3 g-3'>
                     <a href="https://facebook.com"><i class="fab fa-facebook text-primary"></i></a> 
                     <a href="https://twitter.com"><i class="fab fa-twitter text-info"></i></a>

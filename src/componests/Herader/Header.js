@@ -3,10 +3,10 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header'>
-            <h2>Introducing Our Web Developer Team</h2>
-            <p>Our Goal is to Provide the Best Service to Our Clients</p>
-            <h4>Annual Revinue: 10 Millions</h4>
+        <div className='header bg-primary'>
+            <h2>We are Hiring Software and Web Developers</h2>
+            <p>Our Goal is to Find the Best Employees to Serve Our Clients Best</p>
+            <h4>Our Budget: $100000</h4>
         </div>
     );
 };

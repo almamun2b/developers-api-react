@@ -21,11 +21,11 @@ const Cart = (props) => {
 
     return (
         <div>
-            <p className='text-primary'><i class="fas fa-user"></i> Developer Added: {totalQuantity}</p>
-            <p className='text-primary'>Total Cost: $ {total.toFixed(2)}</p>
+            <p ><i class="fas fa-user"></i> Developer Added: {totalQuantity}</p>
+            <p >Total Cost: $ {total.toFixed(2)}</p>
             <ul className='mt-4 cart-image'>
                 {
-                    cart.map(developer => <li><img src={developer.image} alt="" />{developer.name}</li>)
+                    cart.map(developer => <li className='m-1 p-1 rounded-3 bg-primary text-white'><img src={developer.image} alt="" />{developer.name}</li>)
                 }
             </ul>
         </div>
