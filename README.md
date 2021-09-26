@@ -1,12 +1,12 @@
 # Title: We are Hiring Software and Web Developers
 
-To See Our Shortlisted Developers Click [Live Site Link](https://my-superhero-director-react.netlify.app/).
+To See Our Shortlisted Developers Click [Here, Live Site Link](https://my-superhero-director-react.netlify.app/).
 
 ## About The Site
 
 If someone is looking for employees, then this website help to find Qualified employees.This is sample website where we can select the developers by their qualification.
 
-## Technology Used
+### Technology Used
 
 We used FontAwasome, BootStrap, CSS3, HTML5, React, Custom API...etc.
 
