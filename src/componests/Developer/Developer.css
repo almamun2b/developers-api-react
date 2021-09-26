@@ -1,17 +1,16 @@
-.btn-regular{
-    background-color: goldenrod;
-    width: 150px;
-    height: 25px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.developer{
-    border: 2px solid gray;
-    padding: 5px;
-    border-radius: 10px;
+.developer {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.6s;
+  box-shadow: 5px 5px 10px lightgray;
 }
 
-.image img{
-    border-radius: 50%;
+.developer:hover {
+  border: 1px solid cyan;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.image img {
+  border-radius: 50%;
 }

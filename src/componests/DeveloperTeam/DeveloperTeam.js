@@ -17,15 +17,15 @@ const DeveloperTeam = () => {
         const newCart = [...cart, developer];
         setCart(newCart);
     }
-    
+
     return (
         <div>
-            <div className='developers-container'>
+            <div className='developers-container mx-auto'>
                 <div className='developers'>
                     {
                         developers.map(developer => <Developer
                             key={developer.id}
-                            developer = {developer}
+                            developer={developer}
                             handleAddToCart={handleAddToCart}
                         ></Developer>)
                     }

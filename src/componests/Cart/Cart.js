@@ -4,8 +4,6 @@ import './Cart.css'
 const Cart = (props) => {
     // console.log(props)
     const { cart } = props;
-    // console.log(cart[0].name)
-    // const developerName = [];
     cart.map(developer => console.log(developer.name))
 
     let totalQuantity = 0;
@@ -21,8 +19,8 @@ const Cart = (props) => {
 
     return (
         <div>
-            <p ><i class="fas fa-user"></i> Developer Added: {totalQuantity}</p>
-            <p >Total Cost: $ {total.toFixed(2)}</p>
+            <h5 ><i class="fas fa-user"></i> Developer Added: {totalQuantity}</h5>
+            <h6 >Total Cost: $ {total.toFixed(2)}</h6>
             <ul className='mt-4 cart-image'>
                 {
                     cart.map(developer => <li className='m-1 p-1 rounded-3 bg-primary text-white'><img src={developer.image} alt="" />{developer.name}</li>)
