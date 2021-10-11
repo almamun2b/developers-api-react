@@ -1,6 +1,6 @@
-# Title: We are Hiring Software and Web Developers
+# Title: Hiring Software and Web Developers
 
-To See Our Shortlisted Developers Click [Here, Live Site Link](https://my-superhero-director-react.netlify.app/).
+To See Our Shortlisted Developers Click [Here, Live Site Link](https://my-developers-api-react.netlify.app/).
 
 ## About The Site
 
