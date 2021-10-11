@@ -8,7 +8,7 @@ If someone is looking for employees, then this website help to find Qualified em
 
 ### Technology Used
 
-We used FontAwasome, BootStrap, CSS3, HTML5, React, Custom API...etc.
+We used FontAwasome, BootStrap, CSS3, HTML5, React, Custom API...etc to Develop this Site.
 
 ### Functionality
 
